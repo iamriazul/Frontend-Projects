@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>calculator</title>
+
+    <style>
+         .calculator {
+   width: 300px;
+   margin: 40px auto;   
+   text-align: center;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+  background-color: firebrick;
+   padding: 20px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Simple calculator</h1>
+        <h2>Insert Your Input</h2>
+        <input type="number" id="firstInput" placeholder="Enter First Number">
+        <input type="number" id="secondInput" placeholder="Enter Second number">
+        <h3>Chose Your Operator</h3>
+        <button id ="addBtn">
+           Add
+        </button>
+        <button id ="subBtn">
+           Subtract
+        </button>
+        <button id ="divisionBtn">
+           Divsion
+        </button>
+        <button id ="multiplyBtn">
+           Multiply
+        </button>
+        <h3>
+            Result: <span id="result"> 0</span>
+        </h3>
+    </div>
+    <div>
+      <script src="calculatorr.js"></script>
+    </div>
+</body>
+</html>
