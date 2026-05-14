@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.task-creation-section{
+  margin-bottom: 24px; 
+  padding: 5px;
+
+  border-radius: 24px;
+
+  
+}
